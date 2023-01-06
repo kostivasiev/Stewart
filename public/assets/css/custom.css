@@ -1,0 +1,148 @@
+body {
+	padding-top: 70px;
+	background: #eee;
+}
+
+.navbar {
+	-moz-box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+	box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+}
+
+.navbar .navbar-brand {
+	font-weight: bold;
+	letter-spacing: -1px;
+	font-size: 20px;
+	color: #dd5638;
+}
+
+.navbar-right {
+	margin-right: 0;
+}
+
+.table tbody>tr>td.middle {
+	vertical-align: middle;
+}
+
+.media {
+	padding: 10px 0;
+}
+
+
+
+.media-left {
+	padding: 0 20px;
+}
+
+.media-heading {
+	color: #dd5638;
+	margin-bottom: 10px;
+}
+
+.media-body {
+	padding-top: 15px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.jumbotron {
+	background: #fff;
+}
+
+.searchable-option{
+	color: #555555;
+	display: block;
+	cursor: pointer;
+	background-color: #FFFFFF;
+  /*color: #0066FF;*/
+  font-family:arial;
+	padding-top:9px;
+	padding-bottom: 9px;
+	padding-left: 10px;
+	padding-right: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.searchable-option:hover{
+	background-color: #F5F5F5;
+	border-color: #8AC3ED;
+	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  /*color: #0000FF;*/
+}
+
+.map-container{
+	margin: 5px;
+}
+
+.showme{
+display: none;
+}
+.showhim:hover .showme{
+display : block;
+}
+
+/*** Tooltips! ***/
+.tip {
+  position: relative;
+  cursor: help;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tip-o {
+  position: relative;
+  cursor: help;
+  text-decoration: none;
+  color: inherit;
+}
+.tip span {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  padding: .6em;
+  padding-left: 1em;
+  top: 1.5em;
+  left: 2.4em;
+  width: 10em;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.5em;
+}
+.tip-o span {
+  display: inline-block;
+  z-index: 100;
+  position: absolute;
+  padding: .6em;
+  padding-left: 1em;
+  top: 1.5em;
+  /*left: 2.4em;*/
+  /*width: 10em;*/
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.5em;
+}
+.tip:hover span {
+  display: inline-block;
+}
+.sg-question-set,
+.sg-type-radio ul.sg-list-vertical li,
+.sg-type-checkbox ul.sg-list-vertical li,
+.sg-question-options,
+.sg-type-radio-likert .sg-question-options,
+.sg-type-table .sg-question-options,
+.sg-instructions
+{
+  overflow: visible;
+}

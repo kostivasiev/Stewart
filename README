@@ -1,0 +1,36 @@
+Laravel
+
+php artisan serve
+php artisan serve --host=192.168.1.8
+
+php artisan make:model Contact
+
+php artisan make:migration add_user_id_contacts_table --table=contacts
+php artisan make:migration create_table_equipment —table=equipment
+php artisan migrate
+php artisan migrate:rollback
+php artisan db:seed
+
+php artisan route:list
+php artisan make:model EquipmentUser
+php artisan make:controller EquipmentController
+
+php artisan make:policy ContactPolicy
+
+php artisan make:migration add_photo_to_contacts_table --table=contacts
+
+php artisan tinker
+composer dump-autoload
+
+
+insert into role_user (role_id, user_id) values (4,4);
+
+Save Work Orders
+Log Updated Interval
+
+Certification:
+https://certbot.eff.org/#ubuntuxenial-apache
+
+ insert into rights (name, description) VALUES ('Calibrate Flow Meter',''), ('Update Gallons at Pump',''), ('Update RFID',''), ('Update Network Settings','')
+
+ sudo php -dmemory_limit=500M composer.phar update
